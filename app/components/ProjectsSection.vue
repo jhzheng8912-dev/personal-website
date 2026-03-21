@@ -29,13 +29,13 @@
 
           <div class="p-6">
             <div class="flex items-start justify-between mb-2">
-              <h3 class="font-semibold" style="color: #333333;">即將推出</h3>
+              <h3 class="font-semibold" style="color: #8b949e;">即將推出</h3>
               <span class="text-xs font-mono px-2 py-0.5 rounded"
                     style="background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.15); color: #00d4ff;">
                 Coming Soon
               </span>
             </div>
-            <p class="text-sm leading-relaxed mb-4" style="color: #333333;">
+            <p class="text-sm leading-relaxed mb-4" style="color: #94a3b8;">
               專案內容規劃中，敬請期待。
             </p>
             <div class="flex flex-wrap gap-1.5">

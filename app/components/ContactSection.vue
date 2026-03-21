@@ -5,7 +5,7 @@
       <div class="mt-14 grid md:grid-cols-2 gap-14">
         <!-- 左側 -->
         <div class="space-y-5">
-          <p class="leading-relaxed" style="color: #666666;">
+          <p class="leading-relaxed" style="color: #cbd5e1;">
             如果您有合作提案、工作機會，或只是想打個招呼，都歡迎透過以下方式聯絡我。
           </p>
           <div class="space-y-3 pt-2">
@@ -16,14 +16,14 @@
               target="_blank"
               rel="noopener noreferrer"
               class="flex items-center gap-3 group transition-colors"
-              style="color: #555555;"
+              style="color: #8b949e;"
             >
               <span class="text-base w-5 text-center">{{ link.icon }}</span>
               <span
                 class="text-sm font-mono group-hover:underline"
                 style="color: inherit;"
                 onmouseover="this.parentElement.style.color='#00d4ff'"
-                onmouseout="this.parentElement.style.color='#555555'"
+                onmouseout="this.parentElement.style.color='#8b949e'"
               >{{ link.label }}</span>
             </a>
           </div>

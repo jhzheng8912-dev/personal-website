@@ -38,10 +38,10 @@
           </h1>
         </div>
 
-        <p class="text-lg mb-6" style="color: #888888;">
+        <p class="text-lg mb-6" style="color: #8b949e;">
           Full Stack Developer
         </p>
-        <p class="max-w-md mb-10 leading-relaxed" style="color: #666666;">
+        <p class="max-w-md mb-10 leading-relaxed" style="color: #8b949e;">
           3 年全端開發經驗，專注於 Nuxt/Vue 前端、Python 後端與 GCP 雲端部署
         </p>
 

@@ -4,7 +4,7 @@
       <SectionTitle title="關於我" subtitle="About" />
       <div class="mt-14 grid md:grid-cols-2 gap-14 items-start">
         <!-- 自我介紹 -->
-        <div class="space-y-4 leading-relaxed" style="color: #888888;">
+        <div class="space-y-4 leading-relaxed" style="color: #8b949e;">
           <p>
             我是一位擁有 3 年經驗的全端工程師，熟悉 Nuxt/Vue.js 前端開發、
             Python 後端架構，以及 GCP/GKE 雲端部署與維運。
@@ -20,8 +20,8 @@
           <div class="relative pl-4 border-l" style="border-color: #1a1a1a;">
             <div class="absolute -left-1 top-1.5 w-2 h-2 rounded-full" style="background: #00d4ff;" />
             <p class="text-white font-medium text-sm">Software Engineer</p>
-            <p class="text-xs font-mono mt-0.5" style="color: #444444;">2022 – 現在</p>
-            <p class="text-sm mt-2 leading-relaxed" style="color: #666666;">
+            <p class="text-xs font-mono mt-0.5" style="color: #94a3b8;">2022 – 現在</p>
+            <p class="text-sm mt-2 leading-relaxed" style="color: #8b949e;">
               負責前後端全端開發，包含 Nuxt/Vue 前端、Python 後端 API，
               以及 GCP/GKE 雲端部署維運。
             </p>

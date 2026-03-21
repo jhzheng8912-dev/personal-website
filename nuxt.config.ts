@@ -13,9 +13,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: '個人作品集',
+      title: '鄭鈞紘 | Full Stack Developer',
       meta: [
-        { name: 'description', content: '全端開發者・獨立創作者' },
+        { name: 'description', content: '3 年全端開發經驗，專注於 Nuxt/Vue 前端、Python 後端與 GCP 雲端部署。提供網頁開發、API 設計與雲端部署服務。' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ],
     },
