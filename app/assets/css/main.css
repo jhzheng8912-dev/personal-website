@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #e8e8e8;
+  font-family: 'Inter', 'Noto Sans TC', sans-serif;
+}
+
+/* ── 全域 grid 背景 ── */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(0, 212, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* ── 打字機動畫 ── */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #00d4ff;
+  width: 0;
+  animation:
+    typewriter 2.2s steps(22) 0.3s forwards,
+    blink 1s step-end 0.3s infinite;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50%       { border-color: #00d4ff; }
+}
+
+/* 打字結束後停止 blink */
+.typewriter-done {
+  border-color: transparent;
+  animation: none;
+}
+
+/* ── 電藍色發光按鈕 ── */
+.btn-glow {
+  background-color: #00d4ff;
+  color: #0a0a0a;
+  box-shadow: 0 0 16px rgba(0, 212, 255, 0.5), 0 0 40px rgba(0, 212, 255, 0.15);
+  transition: box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 24px rgba(0, 212, 255, 0.7), 0 0 60px rgba(0, 212, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  border: 1px solid rgba(0, 212, 255, 0.4);
+  color: #00d4ff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.btn-outline:hover {
+  border-color: #00d4ff;
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+/* ── 卡片 ── */
+.card-dark {
+  background-color: #111111;
+  border: 1px solid #1a1a1a;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-dark:hover {
+  border-color: rgba(0, 212, 255, 0.3);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.08);
+}
+
+/* ── section fade-in ── */
+.fade-up {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── 捲動條樣式 ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #222; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #00d4ff; }
