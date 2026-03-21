@@ -32,7 +32,7 @@
         <!-- 右側表單：Formspree -->
         <form
           v-if="!submitted"
-          action="https://formspree.io/f/YOUR_FORM_ID"
+          action="https://formspree.io/f/mvzwnpya"
           method="POST"
           class="space-y-4"
           @submit.prevent="handleSubmit"
