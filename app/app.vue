@@ -6,6 +6,7 @@
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
+      <TemplateStoreSection />
       <ContactSection />
     </main>
     <FooterBar />
