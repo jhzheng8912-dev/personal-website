@@ -3,11 +3,52 @@
     <div class="max-w-5xl mx-auto px-6">
       <SectionTitle title="作品集" subtitle="Projects" />
       <div class="mt-14 grid md:grid-cols-2 gap-6">
-        <article
-          v-for="n in 2"
-          :key="n"
-          class="card-dark rounded-xl overflow-hidden group"
-        >
+
+        <!-- 真實專案：餐廳網站模板 -->
+        <article class="card-dark rounded-xl overflow-hidden group">
+          <!-- 封面：預覽圖 -->
+          <div class="h-36 relative overflow-hidden" style="background-color: #2c1810;">
+            <div class="absolute inset-0 flex flex-col items-center justify-center gap-2">
+              <span class="text-2xl">🍽</span>
+              <span class="text-sm font-medium tracking-wide" style="color: #d4a574;">餐廳網站模板</span>
+            </div>
+            <div
+              class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              style="background: radial-gradient(ellipse at center, rgba(212,165,116,0.12) 0%, transparent 70%);"
+            />
+          </div>
+
+          <div class="p-6">
+            <div class="flex items-start justify-between mb-2">
+              <h3 class="font-semibold" style="color: #e6edf3;">餐廳網站模板</h3>
+              <a
+                href="https://restaurant-template-two-orpin.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-xs font-mono px-2 py-0.5 rounded transition-colors duration-200"
+                style="background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.2); color: #00d4ff;"
+                onmouseover="this.style.background='rgba(0,212,255,0.12)'"
+                onmouseout="this.style.background='rgba(0,212,255,0.06)'"
+              >
+                Live Demo ↗
+              </a>
+            </div>
+            <p class="text-sm leading-relaxed mb-4" style="color: #94a3b8;">
+              適合中高價位餐廳的完整網站模板，含菜單展示、線上訂位、Google Maps 整合，支援 RWD 與 SEO 優化。
+            </p>
+            <div class="flex flex-wrap gap-1.5">
+              <span
+                v-for="tag in ['Nuxt 3', 'Tailwind CSS', 'Formspree']"
+                :key="tag"
+                class="text-xs font-mono px-2 py-0.5 rounded"
+                style="background: rgba(0,212,255,0.05); border: 1px solid rgba(0,212,255,0.12); color: #8b949e;"
+              >{{ tag }}</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- 即將推出 -->
+        <article class="card-dark rounded-xl overflow-hidden group">
           <!-- 封面 -->
           <div
             class="h-36 flex items-center justify-center relative overflow-hidden"
@@ -48,6 +89,7 @@
             </div>
           </div>
         </article>
+
       </div>
     </div>
   </section>

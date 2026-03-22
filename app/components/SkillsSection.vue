@@ -44,7 +44,7 @@ const skillCategories: SkillCategory[] = [
   {
     icon: '◈',
     title: 'Backend',
-    skills: ['Python', 'FastAPI', 'PostgreSQL', 'Redis'],
+    skills: ['Python', 'FastAPI', 'MongoDB', 'Redis'],
   },
   {
     icon: '◻',
