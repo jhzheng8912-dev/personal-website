@@ -77,7 +77,7 @@
           >
             <div class="w-8 h-8 rounded border flex items-center justify-center"
                  style="border-color: rgba(0,212,255,0.2);">
-              <svg class="w-4 h-4" style="color: rgba(0,212,255,0.3);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg aria-hidden="true" class="w-4 h-4" style="color: rgba(0,212,255,0.3);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4v16m8-8H4" />
               </svg>
             </div>

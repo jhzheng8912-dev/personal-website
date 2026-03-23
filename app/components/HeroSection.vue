@@ -14,6 +14,8 @@
       <!-- 頭像 -->
       <div class="flex-shrink-0">
         <div
+          role="img"
+          aria-label="鄭鈞紘的頭像"
           class="w-36 h-36 rounded-full flex items-center justify-center text-4xl font-bold text-white"
           style="background: #1a1a2e; border: 1.5px solid rgba(0,212,255,0.6); box-shadow: 0 0 20px rgba(0,212,255,0.25), inset 0 0 20px rgba(0,212,255,0.05);"
         >
@@ -77,7 +79,7 @@
     <!-- 向下捲動提示 -->
     <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce">
       <span class="text-xs tracking-widest" style="color: #444444;">SCROLL</span>
-      <svg class="w-4 h-4" style="color: #00d4ff;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg aria-hidden="true" class="w-4 h-4" style="color: #00d4ff;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
       </svg>
     </div>
