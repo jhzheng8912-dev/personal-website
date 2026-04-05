@@ -17,6 +17,7 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: '3 年全端開發經驗，專注於 Nuxt/Vue 前端、Python 後端與 GCP 雲端部署。提供網頁開發、API 設計、雲端部署接案服務。' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'google-site-verification', content: 'mGIJZ9b6GEqxNipg1Ejz1PWeinmb30qjMm0OZYhOjE4' },
         // Open Graph
         { property: 'og:title', content: '鄭鈞紘 | Full Stack Developer・接案工程師' },
         { property: 'og:description', content: '3 年全端開發經驗，專注於 Nuxt/Vue 前端、Python 後端與 GCP 雲端部署。提供網頁開發、API 設計、雲端部署接案服務。' },
